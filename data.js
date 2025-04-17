@@ -2,63 +2,57 @@ export const data = {
     "items": [
         {
             "product": {
-                "id": 2321312,
-                "name": "Smartphone Apple iPhone 7 128GB",
+                "id": 1,
+                "name": "Smart TV QLED 65 4K Samsung 65Q60D sistema Tizen,Gaming , AI Energy Mode,Alexa built in, Wi-Fi e Bluetooth",
                 "images": [
-                    "http://thumbs.buscape.com.br/celular-e-smartphone/smartphone-apple-iphone-7-128gb_600x600-PU98460_1.jpg",
-                    "http://thumbs.buscape.com.br/celular-e-smartphone/smartphone-apple-iphone-7-128gb/__200x400-PU98460_2_c.jpg?v=2347575274",
-                    "http://thumbs.buscape.com.br/celular-e-smartphone/smartphone-apple-iphone-7-128gb/__200x400-PU98460_3_c.jpg?v=318433138",
-                    "http://thumbs.buscape.com.br/celular-e-smartphone/smartphone-apple-iphone-7-128gb/__200x400-PU98460_4_c.jpg?v=33273730"
+                    "./TV.webp"
                 ],
                 "price": {
-                    "value": 3509.10,
+                    "value": 6999.99 ,
                     "installments": 10,
-                    "installmentValue": 389.90
+                    "installmentValue": 799.99
                 }
             }
         },
         {
             "product": {
-                "id": 9971,
-                "name": "Smart TV Samsung Série 4 UN32J4300AG 32 polegadas LED Plana",
+                "id": 2,
+                "name": "Smartphone Samsung Galaxy S24 Ultra 6,8 Galaxy AI 256GB Titânio Preto 5G 12GB RAM Câm. Quádrupla 200MP + Selfie 12MP Bateria 5000mAh Dual Chip",
                 "images": [
-                    "http://mthumbs.buscape.com.br/tv/smart-tv-samsung-serie-4-un32j4300ag-32-polegadas-led-plana_600x600-PU95547_1.jpg",
-                    "http://thumbs.buscape.com.br/__400x400-PU95547_2_c.jpg?v=3988579075",
-                    "http://thumbs.buscape.com.br/__400x400-PU95547_4_c.jpg?v=4208003525",
-                    "http://thumbs.buscape.com.br/__231312400x400-PU95547_5_c.jpg?v=1473261122"
+                    "./TELE.webp"
                 ],
                 "price": {
-                    "value": 1139.90,
+                    "value": 5999.99,
                     "installments": 10,
-                    "installmentValue": 134.11
+                    "installmentValue":  699.99
                 }
             }
         },
         {
             "product": {
-                "id": 6717131,
-                "name": "Câmera Digital Canon EOS Rebel T5i 18.0 Megapixels",
+                "id": 3,
+                "name": "Geladeira Brastemp Eclipse Collection Frost Free French Door Inverter A+++ 554 litros cor Black Inox - BRO85AE",
                 "images": [
-                    "http://mthumbs.buscape.com.br/camera-digital/canon-eos-rebel-t5i-18-0-megapixels_600x600-PU7bf7b_1.jpg"
+                    "./GELA.webp"
                 ],
                 "price": {
-                    "value": 1999.20,
+                    "value": 7999.99,
                     "installments": 10,
-                    "installmentValue": 235.20
+                    "installmentValue": 899.99
                 }
             }
         },
         {
             "product": {
-                "id": 6717131,
-                "name": "Lenovo IdeaPad 310 80UH0004BR Intel Core i7-6500U 2.5 GHz 8192 MB 1024 GB",
+                "id": 4,
+                "name": "Micro-ondas Electrolux com 31 Litros de Capacidade e Grill Prata - ME41X",
                 "images": [
-                    ""
+                    "./MICRO.webp"
                 ],
                 "price": {
-                    "value": 2599.00,
+                    "value": 799.99,
                     "installments": 10,
-                    "installmentValue": 259.90
+                    "installmentValue": 99.99
                 }
             }
         }
