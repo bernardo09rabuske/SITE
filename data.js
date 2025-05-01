@@ -3,7 +3,7 @@ export const data = {
         {
             "product": {
                 "id": 1,
-                "name": "Smart TV QLED 65 4K Samsung 65Q60D sistema Tizen,Gaming , AI Energy Mode,Alexa built in, Wi-Fi e Bluetooth",
+                "name": "Smart TV QLED 65 4K Samsung 65Q60D ",
                 "images": [
                     "./TV.webp"
                 ],
@@ -17,7 +17,7 @@ export const data = {
         {
             "product": {
                 "id": 2,
-                "name": "Smartphone Samsung Galaxy S24 Ultra 6,8 Galaxy AI 256GB Titânio Preto 5G 12GB RAM Câm. Quádrupla 200MP + Selfie 12MP Bateria 5000mAh Dual Chip",
+                "name": "Smartphone Samsung Galaxy S24 Ultra 256GB Titânio Preto 5G 12GB RAM",
                 "images": [
                     "./TELE.webp"
                 ],
