@@ -33,13 +33,13 @@ header div h1 img {
     width: 100px;
 }
 
-ul li div .infos {
+.infos {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     gap: 24px;
     height: 100%;
     justify-content: space-between;
+    padding-bottom: 32px;
 }
 p {
     font-size: 24px;
@@ -58,21 +58,20 @@ ul li {
 ul li img {
     max-width: 290px;
 }
-ul li p {
-    display: flex;
-    justify-content: flex-end;
+ul li p{
     gap: 4px;
-    padding: 32px;
+   
 }
 ul li span {
     color: green;
 }
+
 li {
     background-color: rgb(250, 247, 247);
     padding: 24px;
-    display: flex;
+    height: 334px;
     justify-content: space-around;
-    align-items: flex-end;
+   
    
 }
 .cartul {
@@ -98,10 +97,14 @@ li {
 }
 .title {
     font-size: 20px;
+    
 }
 .precoavista {
     font-size: 18px;
 }
 .spanavista {
     font-size: 18px;
+}
+.adicionar{
+    align-self: flex-end;
 }

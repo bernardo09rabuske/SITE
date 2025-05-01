@@ -27,6 +27,8 @@ function montarProdutos(){
               <img class="img"src="${produto.product.images[0]}" >
                 <div class="infos">
                 <p class="title">${produto.product.name}</p>
+                <div>
+                <div class="separar">
                 <p class="precoavista"> A VISTA R$ 
                    <span class="spanavista">
                  ${produto.product.price.value}
@@ -37,7 +39,10 @@ function montarProdutos(){
                         ${produto.product.price.installmentValue}
                     </span>
                 </p>
+                </div>
+
                 <button class="adicionar" id="${produto.product.id}add">Adicionar ao carrinho</button>
+                </div>
                 </div>
             </li>
              
@@ -46,6 +51,7 @@ function montarProdutos(){
         button.addEventListener("click",()=>{
             console.log("click",produto)
             carrinho.push(produto)
+            atualizarContadorCarrinho()
             // montarCarrinho(carrinho)
         })
     })
@@ -66,6 +72,7 @@ function montarCarrinho(){
                 <img class="img"src="${produto.product.images[0]}" >
                 <div class="infos">
                 <p class="title">${produto.product.name}</p>
+                <div class="separar">
                 <p class="precoavista"> A VISTA R$ 
                    <span class="spanavista">
                  ${produto.product.price.value}
@@ -76,6 +83,7 @@ function montarCarrinho(){
                         ${produto.product.price.installmentValue}
                     </span>
                 </p>
+                </div>
                <button id="${produto.product.id}cancel">Remover ao carrinho</button>
            </li>
            `)
@@ -83,6 +91,7 @@ function montarCarrinho(){
            button.addEventListener("click",(e)=>{
             console.log(e,"event")
             removerItemDoCarrinho(produto)
+            
            })
     })
     
@@ -95,4 +104,10 @@ function removerItemDoCarrinho(produto){
     })
     carrinho.splice(index,1)
     montarCarrinho(carrinho)
+    atualizarContadorCarrinho()
+}
+function atualizarContadorCarrinho() {
+    const contador = document.getElementById("cartCount");
+    contador.textContent = carrinho.length;
+    contador.style.display = carrinho.length > 0 ? "inline-block" : "none";
 }
